@@ -16,3 +16,10 @@ aside {
   flex: 1;
   overflow-y: auto
 }
+
+main, aside{
+  background-color: green;
+}
+aside > p:hover{
+  box-shadow: 5px 5px purple;
+}
