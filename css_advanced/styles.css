@@ -1,6 +1,10 @@
+body{
+  font-family:  "Source Code Pro", monospace;
+}
 .nav{
   color: white;
   text-decoration: none;
+  font-weight: 500;
 }
 .object {
   background-image: url(Object.png);
@@ -26,7 +30,7 @@ nav > img{
 nav ul li{
   float: right;
   list-style: none;
-  width: 11%;
+  width: 10%;
 }
 
 h1{
@@ -47,13 +51,21 @@ nav{
   display: block;
   margin: 0 auto;
   margin-top: 35px;
+  background-color: rgb(194, 28, 194);
+  border-style: none;
+  border-radius: 17px;
+  padding: 10px 15px;
+  color: white;
+  box-shadow: 5px 7px 8px rgb(66, 65, 65);
+  margin-left: 50px auto;
+
 }
 .learning{
   text-align: center;
+  padding-top: 220px;
+  padding-bottom: 40px;
 }
-.learning{
-  text-align: center;
-}
+
 .container-two{
   display: flex;
   justify-content: space-around;
@@ -62,12 +74,14 @@ nav{
 .images{
   display: block;
   text-align: center;
+  font-style: italic;
 }
 #learn{
   color: purple;
 }
 span{
-  padding-left: 15px;
+  padding-left: 55px;
+  font-weight: bold;
 }
 .bruce{
   border-radius: 50%;
@@ -79,4 +93,17 @@ span{
 }
 .tutorial-making{
   text-align: center;
+}
+.weather-presenter{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 76, 235);
+  padding: 75px 95px;
+  color: white;
+ }
+blockquote{
+  width: 85%;
+  }
+.below-blocquote{
+  padding-left: 37px;
 }
