@@ -11,7 +11,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  margin: 0 0 10px 0;
+ 
   
  } 
 header{
@@ -51,7 +51,7 @@ nav{
   display: block;
   margin: 0 auto;
   margin-top: 35px;
-  background-color: rgb(194, 28, 194);
+  background-color: rgba(200, 128, 255);
   border-style: none;
   border-radius: 17px;
   padding: 10px 15px;
@@ -77,7 +77,7 @@ nav{
   font-style: italic;
 }
 #learn{
-  color: purple;
+  color: rgba(136, 96, 176);
   padding-left: 20px;
 }
 span{
@@ -94,8 +94,6 @@ span{
   display: flex;
   justify-content: space-around;
   margin: 0 0 0 50px;
-
-  
 }
 .tutorial-making{
   text-align: center;
@@ -103,13 +101,43 @@ span{
 .weather-presenter{
   display: flex;
   justify-content: center;
-  background-color: rgb(235, 76, 235);
+  background-color: rgba(195, 112, 255);
   padding: 75px 95px;
   color: white;
+  margin-top: 0;
  }
 blockquote{
   width: 85%;
   }
 .below-blocquote{
   padding-left: 37px;
+}
+footer p {
+  text-align: center;
+  clear: both;
+}
+footer{
+  clear: both;
+  background-color: rgba(7, 22, 40);
+  padding-bottom: 10px;
+  
+}
+.footer{
+  float: left;
+  width: 100%;
+  padding: 50px 45px 40px 55px;
+}
+.footer1{
+  float: right;
+  width: 15%;
+  padding-left: 164px;
+ 
+  }
+.fa-brands{
+  background-color: antiquewhite;
+  border-radius: 50%;
+  padding: 5px;
+}
+.smile{
+  color: gray;
 }
