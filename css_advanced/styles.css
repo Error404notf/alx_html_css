@@ -78,6 +78,7 @@ nav{
 }
 #learn{
   color: purple;
+  padding-left: 20px;
 }
 span{
   padding-left: 55px;
@@ -87,8 +88,13 @@ span{
   border-radius: 50%;
 }
 .tutorials{
+  /* display: flex;
+  justify-content: space-evenly;
+  text-align: center; */
   display: flex;
   justify-content: space-around;
+  margin: 0 0 0 50px;
+
   
 }
 .tutorial-making{
